@@ -1,0 +1,68 @@
+# rule identifiers to exclude from running
+disabled_rules:
+  - trailing_whitespace
+  - large_tuple
+  - todo
+  - unused_setter_value
+  - inclusive_language
+  - redundant_string_enum_value
+
+# optional rules added
+opt_in_rules:
+  - explicit_init
+  - overridden_super_call
+  - operator_usage_whitespace
+  - closure_end_indentation
+  - prohibited_super_call
+
+# paths to ignore during linting. Takes precedence over `included`.
+excluded:
+  - Carthage
+  - Pods
+  - Ressources
+  - Tests
+  - Zenchef/Tests
+  - .vendor
+
+# options
+function_body_length:
+  warning: 70
+  error: 120
+
+file_length:
+  warning: 600
+  error: 1200
+
+type_body_length:
+  warning: 300
+  error: 500
+
+type_name:
+  max_length: # warning and error
+    warning: 45
+
+force_cast:
+  severity: warning
+
+line_length:
+  warning: 165
+  ignores_function_declarations: true
+  ignores_comments: true
+
+vertical_whitespace:
+  max_empty_lines: 3
+
+nesting:
+  type_level:
+    warning: 2
+
+identifier_name:
+  min_length: 2
+
+cyclomatic_complexity:
+  warning: 25
+
+function_parameter_count:
+  warning: 6
+  error: 12
+
