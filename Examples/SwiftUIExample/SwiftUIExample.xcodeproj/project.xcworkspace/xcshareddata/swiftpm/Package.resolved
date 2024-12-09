@@ -1,0 +1,24 @@
+{
+  "originHash" : "cdea0a58a57a90b76906e0192b8ce8fc4908ce0c16df0abb86d10eea6839099e",
+  "pins" : [
+    {
+      "identity" : "composable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppLogHero/Composable",
+      "state" : {
+        "branch" : "main",
+        "revision" : "36f8890f7b23530210388bc0db262f84d9286c9b"
+      }
+    },
+    {
+      "identity" : "swiftlintplugins",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SimplyDanny/SwiftLintPlugins.git",
+      "state" : {
+        "revision" : "f9731bef175c3eea3a0ca960f1be78fcc2bc7853",
+        "version" : "0.57.1"
+      }
+    }
+  ],
+  "version" : 3
+}
