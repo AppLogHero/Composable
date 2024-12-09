@@ -5,7 +5,7 @@ xcuserdata/
 DerivedData/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.swiftpm/Xcode/xcshareddata/xcschemes
+.swiftpm/xcode/xcshareddata/xcschemes
 .netrc
 *.xcscmblueprint
 *.xccheckout
